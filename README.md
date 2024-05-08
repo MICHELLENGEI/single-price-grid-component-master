@@ -29,8 +29,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/MICHELLENGEI/single-price-grid-component-master.git)
+
+- Live Site URL: [Single Price Grid-component](https://single-price-grid-component-frontend.netlify.app/)
+
 
 ## My process
 
