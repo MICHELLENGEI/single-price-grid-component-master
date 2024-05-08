@@ -111,7 +111,7 @@ button{
 }
 footer {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
 }
 
 .attribution {
@@ -123,6 +123,81 @@ footer {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-@media screen {
-    
+@media screen and (max-width:375px) {
+    .container {
+        margin: 2px;
+        width: 80vw;
+        height: 90vh;
+        display: flex;
+        border-radius: 16px;
+        flex-direction: column;
+    }
+    .top {
+        height: 30vh;
+        width: 80vw;
+    }
+    .bottom {
+        height: 70vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column; 
+    }
+    .subscription {
+        width: 80vw;
+        height: 30vh;
+        border-bottom-left-radius: 0;
+   
+    }
+    .whyus {
+        width: 80vw;
+        height: 30vh;
+        border-bottom-left-radius: 16px;
+       
+    }
+    header h2 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .days {
+        margin: 10px 20px;
+        font-size: 16px;
+    }
+    .explanation{
+        font-size: 13px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .subscription h3{
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .dollar{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .dollar h1{
+        font-size: 32px;
+
+    }
+    .subscription .access{
+        margin: 0 20px;
+    }
+    button{
+        width: 80%;
+        height: 40px;
+        margin: 20px 20px;
+    }
+    .whyus h3{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .whyus p{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
 }
